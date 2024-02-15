@@ -1,0 +1,68 @@
+* {
+  background-image: url(https://www.creativefabrica.com/wp-content/uploads/2021/08/30/Futuristic-light-green-gaming-background-Graphics-16529184-1.jpg);
+  background-size: cover;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 10px;
+  margin: -3.2px;
+  border-spacing: 10px;
+}
+td:hover {
+  background: rgb(101, 13, 232);
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.wrapper {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+td a {
+  display: block;
+  width: 310px;
+  height: 52px;
+  line-height: 50px;
+  font-size: 15.5px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #bcf4c8;
+  border: 2px solid #333;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transition: all 0.35s;
+}
+
+td a span {
+  position: relative;
+  z-index: 2;
+}
+
+td a:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #09a911;
+  transition: all 0.65s;
+}
+
+td a:hover {
+  color: #fff;
+}
+
+td a:hover:after {
+  width: 100%;
+}
+h1 {
+  display: none;
+}
